@@ -3,13 +3,13 @@
 var prezzoFinale;
 
 // chiedere a utente numero di km da percorrere
-var km = parseFloat(prompt("Quanti chilometri vuoi percorrere?"));
+var km = parseInt(prompt("Quanti chilometri vuoi percorrere?"));
 
 // chiedere età del passeggero
 var eta = parseInt(prompt("Quanti anni hai?"));
 
 // var prezzo Biglietto
-var costoBiglietto = parseFloat(km * 0.21);
+var costoBiglietto = km * 0.21;
 
 console.log("costo biglietto :" + costoBiglietto);
 
