@@ -25,7 +25,7 @@ if (eta <= 17) {
 console.log("prezzo finale:" + prezzoFinale);
 
 // messaggio finale
-var msg = "Il prezzo del tuo biglietto è di: " + prezzoFinale + " euro.";
+var msg = "Il prezzo del tuo biglietto è di: " + prezzoFinale.toFixed(2) + " euro.";
 
 // prezzo totale viaggio
 document.getElementById('prezzo-biglietto').innerHTML = msg;
